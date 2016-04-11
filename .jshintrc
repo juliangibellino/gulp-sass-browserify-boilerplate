@@ -1,0 +1,55 @@
+{
+    // Enforcing options
+    // http://www.jshint.com/docs/options/#enforcing-options
+    "indent": 4,
+    "curly": true,
+    "noarg": true,
+    "forin": true,
+    "noempty": true,
+    "eqeqeq": true,
+    "undef": true,
+    "bitwise": true,
+    "nonbsp": true,
+    "nonew": true,
+    "predef" : [
+        "Microsoft",
+        "Modernizr",
+        "require",
+        "define",
+        "console",
+        "angular",
+        "describe",
+        "beforeEach",
+        "afterEach",
+        "module",
+        "inject",
+        "it",
+        "expect",
+        "spyOn",
+        "jasmine",
+        "readFixtures",
+        "alert",
+        "plugin",
+        "GLatLng",
+        "GMap2",
+        "GClientGeocoder",
+        "GIcon",
+        "GMarker",
+        "G_DEFAULT_ICON",
+        "ADB",
+        "Camera",
+        "cordova",
+        "navigator",
+        "configTest"
+    ],
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    // Environments
+    // http://www.jshint.com/docs/options/#environments
+
+    "browser": true,
+    "node": true,
+    "browserify": true
+
+}

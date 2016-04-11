@@ -1,0 +1,17 @@
+/* //////////////////////////////////////////////////////////////////////////
+   //////////////////////////////////////////////////////////////////////////
+
+   EXAMPLE STYLE MANIFEST
+
+   The architecture of the SCSS files is completely un-opinionated and can be
+   implemented as you see fit.
+
+   Note: Each 'scss' file that is not prefixed with an underscore will be
+   processed to a 'css' and distributed to the 'dist' directory.
+
+   To update the build process for the css, see 'gulp/tasks/build/compile-sass.js'
+
+   //////////////////////////////////////////////////////////////////////////
+   ////////////////////////////////////////////////////////////////////////// */
+
+@import "partials/example";

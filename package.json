@@ -1,0 +1,64 @@
+{
+  "name": "gulp-sass-browserify-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate project for a Gulp, Sass and Browserify stack",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliangibellino/gulp-sass-browserify-boilerplate.git"
+  },
+  "keywords": [
+    "HTML",
+    "gulp",
+    "sass",
+    "browesify",
+    "boilerplate"
+  ],
+  "author": "Julian Gibellino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliangibellino/gulp-sass-browserify-boilerplate/issues"
+  },
+  "homepage": "https://github.com/juliangibellino/gulp-sass-browserify-boilerplate#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-server-livereload": "^1.7.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "stringify": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-fs": "^2.4.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browser": {},
+  "browserify": {
+    "transform": [
+      [
+        "stringify",
+        "browserify-shim"
+      ]
+    ],
+    "extensions": [
+      ".html",
+      ".json"
+    ],
+    "insertGlobals": true,
+    "detectGlobals": true,
+    "debug": true
+  },
+  "browserify-shim": {}
+}
