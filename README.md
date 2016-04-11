@@ -9,7 +9,7 @@ for processing and compilation.
 1. Download or clone the latest repo `git clone https://github.com/juliangibellino/gulp-sass-browserify-boilerplate.git`
 2. [Install dependencies](#install-dependencies)
 3. [Build project](#builds)
-4. [Source Code](#source-code)
+4. [Source Code](#source-files)
 
 ## Install Dependencies
 
@@ -26,11 +26,11 @@ its own file within the `gulp/tasks` directory
 
 For individual tasks, the following can be used:
 
-* Compile Templates - `gulp-templates`
+* Compile View - `gulp compile-view`
 * Compile CSS - `gulp compile-sass`
 * Compile JS - `gulp compile-js`
 * Compile Assets - `gulp compile-assets`
-* Dev - `gulp dev` (builds application w/ livereload and deploys local server)
+* Dev w/ Live Reload - `gulp dev`
 * Build - `gulp build`
 
 ### Build Configuration
