@@ -48,6 +48,10 @@ To build the project locally, follow the following steps
 3. Run `gulp build`
 4. Once build has successfully ran the project will be distributed to `/dist`
 
+Optionally for production builds the argument `--prod` can be added to minify and uglify output to distribution.
+
+For example when building to production, the following can be used `gulp build --prod`.
+
 ### Development build setup with watches and live reload
 
 When working on changes, it is recommended to run `gulp dev` to view up-to-date changes as you work.

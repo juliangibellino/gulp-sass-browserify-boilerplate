@@ -1,7 +1,8 @@
 'use strict';
 
 var gulp = require('gulp'),
-    runSequence = require('run-sequence');
+    runSequence = require('run-sequence'),
+    argv = require('yargs').argv;
 
 /**
  * @name _build
@@ -15,13 +16,14 @@ var gulp = require('gulp'),
 function _build(cb){
     return runSequence(
         ['clean'],
-        ['compile-sass', 'compile-js','compile-view'],
+        ['compile-sass', 'compile-js', 'compile-view'],
         cb
     );
 }
 
 /**
  * Gulp task responsible for building the full distribution package
+ * @param {string} --prod Indicator for if the build is for production and should compress output. By default it will run as a dev build
  * @module build
  */
 module.exports = gulp.task('build', _build);

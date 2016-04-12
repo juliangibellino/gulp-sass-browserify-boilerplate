@@ -29,12 +29,14 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
+    "gulp-if": "^2.0.0",
     "gulp-jscs": "^3.0.2",
     "gulp-jshint": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",
     "gulp-server-livereload": "^1.7.3",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
     "require-dir": "^0.3.0",
@@ -42,7 +44,8 @@
     "stringify": "^5.1.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-fs": "^2.4.3",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^4.6.0"
   },
   "browser": {},
   "browserify": {
