@@ -22,7 +22,6 @@ var _appName = 'Demo';
  * @private
  */
 function _registerApp() {
-    console.log('_registerApp');
 
     /**
      * @name _init
